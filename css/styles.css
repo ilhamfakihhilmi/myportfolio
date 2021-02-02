@@ -347,14 +347,14 @@ img{
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 .footer__title{
   font-size: 2rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-2);
 }
 .footer__social{
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-1);
 }
 .footer__icon{
   font-size: 1.5rem;
@@ -439,23 +439,24 @@ img{
   }
 }
 
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
   .bd-grid{
     margin-left: auto;
     margin-right: auto;
   }
   .home__img{
-    right: 10%;
-    width: 600px;
+    right: 5%;
+    width: 540px;
   }
 }
-@media screen and (min-width: 360px){
+
+@media (max-width: 360px){
   .bd-grid{
     margin-left: auto;
     margin-right: auto;
   }
   .home__img{
-    right: 10%;
-    width: 250px;
+    left: 25%;
+    width: 70%;
   }
 }
