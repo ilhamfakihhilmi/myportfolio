@@ -180,14 +180,25 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
+                    <form action="" method="POST" class="contact__form">
+                        <input name="name" type="text" placeholder="Your Name" class="contact__input" required>
+                        <input name="email" type="email" placeholder="Your Email" class="contact__input" required>
+                        <textarea name="message" placeholder="Message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Send" class="contact__button button">
                     </form>
                 </div>
-            </section>
+     
+
+            <!-- <h1>contact form email</h1>
+            <p>demo ini dibuat oleh Hamming99</p>
+            <form action="index.html" method="POST">
+                <p><input type="text" name="nama" placeholder="Nama Anda" size="30" required /></p>
+                <p><input type="email" name="email" placeholder="Email Valid" size="30" required /></p>
+                <p><input type="text" name="judul" placeholder="Subject pesan email" size="50" required /></p>
+                <p><textarea name="pesan" placeholder="Pesan Anda" rows="7" cols="50" required /></p>
+                <p><input type="submit" name="kirim" value="Kirim Pesan" /> <input type="reset" value="Hapus Pesan" /></p>
+            </form> -->
+        </section>
         </main>
 
         <!--===== FOOTER =====-->
