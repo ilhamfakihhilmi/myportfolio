@@ -70,7 +70,7 @@ a{
   text-decoration: none;
 }
 img{
-  max-width: 130%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -161,10 +161,11 @@ img{
 }
 .nav__logo{
   color: var(--secon-color);
+  font-size: 1rem;
 }
 .nav__toggle{
-  color: white;
-  font-size: 1.5rem;
+  color: var(--second-color);
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -216,7 +217,6 @@ img{
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 150px;
 }
 
 /*BUTTONS*/
@@ -301,7 +301,7 @@ img{
   width: 85%;
 }
 .skills__img{
-  border-radius: .5rem;
+  border-radius:.5rem;
 }
 
 /* ===== WORK =====*/
@@ -328,7 +328,7 @@ img{
   font-weight: var(--font-semi);
   padding: 1rem;
   border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
+  border: 1px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
 }
@@ -397,7 +397,6 @@ img{
   .nav__link{
     color: var(--second-color);
   }
-
   .home{
     height: 100vh;
   }
@@ -415,8 +414,8 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 457px;
-    bottom: 15%;
+    width: 600px;
+    bottom: 20%;
   }
 
   .about__container, .skills__container{
@@ -447,5 +446,16 @@ img{
   }
   .home__img{
     right: 10%;
+    width: 600px;
+  }
+}
+@media screen and (min-width: 360px){
+  .bd-grid{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home__img{
+    right: 10%;
+    width: 250px;
   }
 }
