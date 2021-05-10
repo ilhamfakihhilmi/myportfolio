@@ -28,16 +28,21 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '80px',
-    duration: 2000,
-    reset: true
+    distance: '50px',
+    duration: 1900,
+    reset: false
 });
+
+
 
 /*SCROLL HOME*/
 sr.reveal('.home__title',{}); 
+sr.reveal('.home__title2',{}); 
+sr.reveal('.download_cv',{delay: 400}); 
 sr.reveal('.button',{delay: 200}); 
-sr.reveal('.home__img',{delay: 400}); 
+sr.reveal('.home__img',{delay: 100}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
+sr.reveal('.home__download-icon',{ delay: 400}); 
 
 /*SCROLL ABOUT*/
 sr.reveal('.about__img',{}); 
