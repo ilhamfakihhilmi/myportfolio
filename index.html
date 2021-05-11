@@ -46,14 +46,15 @@
 
     <main class="l-main">
         <!--===== HOME =====-->
-        <section class="home bd-grid" id="home">
+        <div id="particles-js"> </div>
+        <section class="home bd-grid" id="particles-js">
+
             <div class="home__data">
                 <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Ilham Fakih Hilmi</span></h1>
                 <div class="home__title2">
                     <h2>Freelance Product Designer and </h2>
                     <h2>Developer Based in Karawang, Indonesia.</h2>
                 </div>
-
                 <a href="#contact" class="button">Contact</a>
                 <a href="#contact" class="download_cv">Downlaod CV</a>
                 <a href="https://twitter.com/_Hamming99" class="home__download-icon"><i class='bx bx-download'></i></a>
@@ -72,6 +73,8 @@
             <div class="home__img">
                 <img class="ifh_ava" src="img/ava_header_1.png" alt="">
             </div>
+            
+
         </section>
 
         <!--===== ABOUT =====-->
@@ -151,11 +154,15 @@
                     <img src="img/work6.jpg" alt="">
                 </div>
             </div>
+            <a href="#contact" class="button_work">More</a>
         </section>
 
         <!--===== CONTACT =====-->
         <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
+
+            <div class="about_bg">
+                <h2 class="section-title-about">Contact Us</h2>
+            </div>
             <div class="contact__container bd-grid">
 
                 <form action="https://formspree.io/f/mbjpbygn" method="POST" class="contact__form">
@@ -174,15 +181,17 @@
 
     <!--===== FOOTER =====-->
     <footer class="footer">
-        <p class="footer__title">_Hamming99</p>
+
         <div class="footer__social">
+            <img class="ifh_footer" src="img/ifh.png" alt="">
             <a href="https://web.facebook.com/ilhamfakihhilmii/" class="footer__icon"><i
                     class='bx bxl-facebook'></i></a>
             <a href="https://www.instagram.com/_hamming99/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
             <a href="https://github.com/ilhamfakihhilmi" class="footer__icon"><i class='bx bxl-github'></i></a>
             <a href="https://twitter.com/_Hamming99" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            <a href="https://twitter.com/_Hamming99" class="footer__icon"><i class='bx bxl-dribbble'></i></a>
         </div>
-        <p>&#169; 2021 copyright all right reserved</p>
+        <p>&#169; 2021 copyright all right reserved by Hamming99 &#9829;</p>
     </footer>
 
 
@@ -190,6 +199,8 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--===== MAIN JS =====-->
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
     <script src="js/main.js"></script>
     <script src="js/contact.js"></script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
