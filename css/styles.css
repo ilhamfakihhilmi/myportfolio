@@ -117,7 +117,7 @@ img {
 
 /*===== LAYOUT =====*/
 .bd-grid {
-  max-width: 1824px;
+  max-width: 1500px;
   display: grid;
   grid-template-columns: 100%;
   grid-column-gap: 2rem;
@@ -135,8 +135,8 @@ img {
 
 /*===== NAV =====*/
 .ifh {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .nav {
@@ -172,7 +172,7 @@ img {
 .nav__link {
   position: relative;
   color: #fff;
-  margin-left: 70px;
+  margin-left: 40px;
 }
 
 .nav__link:hover {
@@ -226,7 +226,6 @@ img {
 
 .home__data {
   align-self: center;
-  margin-bottom: 55rem;
 }
 
 .home__title {
@@ -253,8 +252,7 @@ img {
   display: flex;
   flex-direction: column;
   color: #734A45;
-  margin-top: 33rem;
-  margin-left: 15rem;
+  margin-top: -35rem;
 }
 
 .home__download-icon {
@@ -267,7 +265,7 @@ img {
 .home__social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 3rem;
+  font-size: 2rem;
   color: #734A45;
 }
 
@@ -362,7 +360,7 @@ img {
 }
 
 .skills__img {
-  margin-left: 75rem;
+  margin-left: 61rem;
   width: 925px;
   margin-top: -13rem;
 
@@ -565,7 +563,7 @@ img {
   }
 
   .home__social-icon {
-    margin-bottom: 0;
+    margin-bottom: 4rem;
     margin-right: var(--mb-4);
   }
 
@@ -628,13 +626,23 @@ img {
   }
 }
 
+                                                /*Dekstop*/
+
 @media screen and (min-width: 1024px) {
   .particles-js {
     z-index: 1;
   }
 
+  .nav__logo {
+    color: var(--secon-color);
+    font-size: 20px;
+    font-family: 'poppins';
+    margin-left: -40px;
+    font-weight: 500;
+  }
+
   body {
-    margin: 0;
+    margin-top: -5px;
     background-color: #CEB697;
   }
 
@@ -642,9 +650,10 @@ img {
     height: 300px;
   }
 
+  
   .ifh {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin-top: 30px;
   }
 
@@ -652,16 +661,17 @@ img {
     display: flex;
     padding-left: 500px;
     font-family: Poppins;
-    font-style: bold;
-    font-weight: 50;
+    font-weight: 400;
     font-size: 24px;
     color: #434343;
   }
 
+  
+
   .ifh_ava {
-    width: 925px;
-    margin-top: -198px;
-    margin-left: -250px;
+    width: 757px;
+    margin-left: 20px;
+
   }
 
 
@@ -671,8 +681,13 @@ img {
   }
 
   .home__img {
-    width: 1000px;
+    width: 925px;
     height: 900px;
+  }
+
+  .home__data {
+    align-self: center;
+    margin-bottom: 8rem;
   }
 
   .ifh_ava_skill {
