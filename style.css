@@ -555,10 +555,10 @@ body{
   header .navigation.active{
     z-index: 888;
     position: fixed;
-    background: #fff;
+    background: rgb(255, 255, 255);
     top: 0;
     right: 0;
-    width: 380px;
+    width: 300px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -569,17 +569,17 @@ body{
   }
 
   header .navigation a{
-    color: #000;
+    color: rgb(6, 3, 34);
     font-size: 1.2em;
-    margin: 10px;
+    margin: 15px;
     padding: 0 20px;
-    border-radius: 20px;
+    border-radius: 10px;
   }
 
   header .navigation a:hover{
-    background: #3a6cf4;
-    color: #fff;
-    transition: 0.3s ease;
+    background: #CCB18E;
+    color: #624145;
+    transition: 0.5s ease;
   }
 
   .menu-btn{
@@ -600,7 +600,7 @@ body{
     background: url(images/close.png)no-repeat;
     background-size: 25px;
     background-position: center;
-    transition: 0.3s ease;
+    transition: 0.5s ease;
     filter: invert(1);
   }
 
@@ -608,8 +608,20 @@ body{
     padding: 80px 20px;
   }
 
+  .main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/bghp.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
   .main .content h2{
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .animated-text h3{
