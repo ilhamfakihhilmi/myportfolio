@@ -645,6 +645,16 @@ body{
     margin-top: 40px;
   }
 
+  .about .content .col-left .img-card img{
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
   .skills .content{
     flex-direction: column;
   }
